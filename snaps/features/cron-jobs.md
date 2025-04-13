@@ -39,7 +39,7 @@ For example, to configure a job that executes every minute, add the following to
 
 ### 2. Implement a cron job handler
 
-Expose an [`onCronjob`](../reference/entry-points.md#oncronjob) entry point, which is triggered at
+Expose an [`onCronjob`](../reference/entry-points.md#-points.md#oncronjob) entry point, which is triggered at
 the specified schedule with the requests defined in the `endowment:cronjob` permission.
 The following example handles the `execute` method specified in the previous example:
 
